@@ -18,11 +18,13 @@ p, li {
     font-size: 14px;
 }
 
- /* Navigation bar */
+/* Navigation bar */
 
 header, .navbar {
     background-color: #353533;
- }
+    padding: 10px;
+}
+
 
 #nav-container {
     padding-top: 0;
@@ -32,3 +34,24 @@ header, .navbar {
 #logo {
     width: 75px;
 }
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand a {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+.navbar.navbar-expand-lg.fixed-top {
+    padding: 20px;
+}   
